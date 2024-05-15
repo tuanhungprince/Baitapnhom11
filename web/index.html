@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://db.onlinewebfonts.com/c/2f86dc938a55788d3416b876b43a116a?family=Poppins" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="jquery.js"></script>
+    <body>
+  <div class="wrapper">
+    <div class="container">
+    
+      <div class="head">
+        <div class="head_left">
+          <div class="head_left_1">FAQs</div> 
+          <span class="head_gachdoc"></span>
+          <div class="head_left_2">Help</div> 
+          <span class="head_gachdoc"></span>
+          <div class="head_left_3">Booking</div>
+        </div> 
+    
+        <div class="head_right">
+          <a href="" class="head_right_icon"><img src="icon/face.png" alt=""></a>
+          <a href="" class="head_right_icon"><img src="icon/chim.png" alt=""></a> 
+          <a href="" class="head_right_icon"><img src="icon/in.png" alt=""></a>
+          <a href="" class="head_right_icon"><img src="icon/ig.png" alt=""></a>
+          <a href="" class="head_right_icon"><img src="icon/youtube.png" alt=""></i></a>
+        </div>
+      </div>
+   <div class="home">
+      <div class="home-1"></div>
+      <div class="home_home">
+        <div class="home_home_left">
+          <div class="home_home_left1"><a href="">Home</a></div>
+          <div class="home_home_left1"><a href="">About</a></div>
+          <div class="home_home_left1"><a href="">Product</a></div>
+          <div class="home_home_img"> <h1 class="icream"><span>i</span>CREAM</h1></div></div>
+        <div class="home_home_right">
+            <div class="home_home_right1"><a href="">Service</a></div>
+            <div class="home_home_right1"><a href="">Gallery</a></div>
+            <div class="home_home_right1"><a href="">Contact</a></div>
+          </div>
+        </div>
+  
+        <div class="Anh-gallery"></div>
+  
+        <div class="box-text">
+            <span class="gach-ngang"></span>
+            <div class="title">
+            <h1>Delicious Ice Cream
+              Made From Our Very
+              Own Organic Milk</h1>
+          </div>
+          <div class="button">
+            <button>All</button>
+            <button id="0">Cone</button>
+            <button id="1">Vanilla</button>
+            <button id="2">Chocolate</button>
+          </div>
+  
+        </div>
+        <div class="product">
+          <img src="img/anh1.png"  alt="0">
+          <img src="img/anh2.png"  alt="1">
+          <img src="img/anh3.png"  alt="2">
+          <img src="img/anh4.png"  alt="0">
+          <img src="img/anh5.png"  alt="1">
+          <img src="img/anh6.png"  alt="2">
+        </div>
+        
+    </div>
+  
+     <div class="box2">
+            <h1 class="icream2"><span>i</span>CREAM</h1>
+            <div class="icon">
+              <a href="" class="icon1"><img src="icon1/chim.png" alt=""></i></a> 
+              <a href="" class="icon1"><img src="icon1/face.png" alt=""></i></a>
+              <a href="" class="icon1"><img src="icon1/in.png" alt=""></i></a>
+              <a href="" class="icon1"><img src="icon1/ig.png" alt=""></i></a>
+            </div>
+  
+            <div class="text-right">
+              <h3>Get In Touch</h3>
+              <h4>123 Street, New York, USA</h4>
+              <h4>+012 345 67890</h4>
+            </div>
+            <div class="text-left">
+              <h3>Opening Hours</h3>
+              <h4>Mon – Sat, 8AM – 5PM</h4>
+              <h4>Sunday: Closed</h4>
+            </div>
+  
+            <div class="last">
+              <div class="text-last">
+                <h3><span>© Domain</span>. All Rights Reserved. Designed by <span>Hung Index</span></h3>
+              </div>
+            </div>
+     </div>
+    </div>
+  </div>
+  <div class="overlay"></div>
+
+
+
+  <script type="text/javascript">
+    //Bấm vào từng ô
+    $(document).ready(function(){
+      $(".button button").click(function(){
+        var click_value = parseInt($(this).attr("id"));
+        
+        $('.product img').hide();
+        $('.product img[alt="' + click_value + '"]').slideToggle(1000);
+      })
+      $(".button button:eq(0)").click(function(){
+        $('.product img').fadeToggle(1000);
+      })
+
+      //Click phóng to ảnh
+      $(".product img").click(function(){
+      $('.product img').fadeOut(300);
+      $('.overlay').css('display', 'block');
+      $(this).css({'z-index':'1000', 'width': '500px', 'height': '355px'}).fadeIn(300); 
+        });
+     
+
+     // Ẩn overlay và ảnh khi click vào overlay
+  $('.overlay').click(function(event){
+    $('.product img').css({'z-index':'', 'width': '', 'height': ''});
+    $('.overlay').fadeOut(300);
+    $('.product img').fadeOut(300);
+   
+    $('.product img').stop().css('display','block');
+  
+  });
+  
+  // Ngăn sự kiện click trên overlay lan ra các phần tử khác
+  $('.overlay').click(function(event){
+    event.stopPropagation();
+  });
+  
+  function showAllImages() {
+    $('.product img').css('display','block');
+  }
+
+    })
+    
+
+  </script>
+</body>
+</html>
+
+

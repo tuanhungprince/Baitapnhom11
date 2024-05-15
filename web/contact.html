@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://db.onlinewebfonts.com/c/2f86dc938a55788d3416b876b43a116a?family=Poppins" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="jquery.js"></script>
+    <body>
+  <div class="container">
+    
+    <div class="head">
+      <div class="head_left">
+        <div class="head_left_1">FAQs</div> 
+        <span class="head_gachdoc"></span>
+        <div class="head_left_2">Help</div> 
+        <span class="head_gachdoc"></span>
+        <div class="head_left_3">Booking</div>
+      </div> 
+  
+      <div class="head_right">
+        <a href="" class="head_right_icon"><img src="icon/face.png" alt="facebool"></a>
+        <a href="" class="head_right_icon"><img src="icon/chim.png" alt=""></a> 
+        <a href="" class="head_right_icon"><img src="icon/in.png" alt=""></a>
+        <a href="" class="head_right_icon"><img src="icon/ig.png" alt=""></a>
+        <a href="" class="head_right_icon"><img src="icon/youtube.png" alt=""></i></a>
+      </div>
+    </div>
+ <div class="home">
+    <div class="home-1"></div>
+    <div class="home_home">
+      <div class="home_home_left">
+        <div class="home_home_left1"><a href="">Home</a></div>
+        <div class="home_home_left1"><a href="">About</a></div>
+        <div class="home_home_left1"><a href="">Product</a></div>
+        <div class="home_home_img"> <h1 class="icream"><span>i</span>CREAM</h1></div></div>
+      <div class="home_home_right">
+          <div class="home_home_right1"><a href="">Service</a></div>
+          <div class="home_home_right1"><a href="">Gallery</a></div>
+          <div class="home_home_right1"><a href="">Contact</a></div>
+        </div>
+      </div>
+
+      <div class="Anh-contact"></div>
+
+      <div class="box-contact">
+        <span class="ngang"></span>
+        <h1>Contact Us For Any Query</h1>
+        
+
+            <form class="contact-form">
+                <div class="form-row1">
+                    <input type="text" placeholder="Your Name" id="name" name="name" required>
+                    <input type="email" id="email" placeholder="Your Email" name="email" required>
+                </div>
+
+        
+                <div class="form-row3">
+                    <input type="subject" id="subject" placeholder="Subject" name="subject" required>
+                </div>
+        
+                <div class="form-row4">
+                     <textarea id="Message" name="Message" placeholder="Message" cols="30" rows="10" required></textarea>
+                 </div>
+                <button type="submit">Send Message</button>
+            </form>
+        
+          </div>
+    </div>
+
+    <div class="box2">
+        <h1 class="icream2"><span>i</span>CREAM</h1>
+        <div class="icon">
+          <a href="" class="icon1"><img src="icon1/chim.png" alt=""></i></a> 
+          <a href="" class="icon1"><img src="icon1/face.png" alt=""></i></a>
+          <a href="" class="icon1"><img src="icon1/in.png" alt=""></i></a>
+          <a href="" class="icon1"><img src="icon1/ig.png" alt=""></i></a>
+        </div>
+
+        <div class="text-right">
+          <h3>Get In Touch</h3>
+          <h4>123 Street, New York, USA</h4>
+          <h4>+012 345 67890</h4>
+        </div>
+
+        <div class="text-left">
+          <h3>Opening Hours</h3>
+          <h4>Mon – Sat, 8AM – 5PM</h4>
+          <h4>Sunday: Closed</h4>
+        </div>
+
+        <div class="last">
+            <div class="last-text">
+              <h3><span>© Domain. </span>All Rights Reserved. Designed by <span>Hung Codex</span></h3>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript">
+
+  $(document).ready(function(){
+    $('.form-row4>textarea').click(function(){
+      $('textarea').css('border', '3px solid #e5b6c6');
+      $('.form-row3>input, .form-row1>input').css('border', '1px solid #ccc');
+      return false;
+    })
+
+    $('.form-row3>input').click(function(){
+      $('.form-row3>input').css('border', '3px solid #e5b6c6');
+      $('.form-row4>textarea, .form-row1>input').css('border', '1px solid #ccc');
+      return false;
+    })
+
+    $('.form-row1>input:first-child').click(function(){
+      $('.form-row1>input').css('border', '3px solid #e5b6c6');
+      $('.form-row4>textarea, .form-row3>input,.form-row1>input:last-child').css('border', '1px solid #ccc');
+      return false;
+    })
+
+    $('.form-row1>input:last-child').click(function(){
+      $('.form-row1>input').css('border', '3px solid #e5b6c6');
+      $('.form-row4>textarea, .form-row3>input, .form-row1>input:first-child').css('border', '1px solid #ccc');
+      return false;
+    })
+  })
+</script>
+</body>
+</html>
