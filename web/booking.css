@@ -296,15 +296,6 @@ font-family: "Poppins";
 outline: none;
 }
 
-/* .form-row3 input{
-width: 730px;
-height: 60px;
-margin-top: 10px;
-margin-left: 47px;
-border-radius: 30px 30px 30px 30px;
-font-family: "Poppins";
-outline: none;
-} */
 .form-row3{
 display: flex;
 margin-top: 30px;
@@ -422,7 +413,7 @@ background-color: #ff4785;
   text-align: right;
 }
 
-.text-right h4{
+.text-right p{
   text-align: right;
   font-weight: 300;
 }
