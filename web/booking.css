@@ -28,7 +28,7 @@ body{
 .head_left{
   display: flex;
   margin-top: 15px;
-  margin-left: 390px; 
+  margin-left: 340px; 
   color: #FFF;
   font-family: "Poppins";
 }
@@ -67,7 +67,7 @@ margin-left: 70px;
 }
 .head_right{
   display: flex;
-  margin-right: 400px;
+  margin-right: 360px;
   margin-top: 17px;
 }
 .head_right_icon{
