@@ -1485,7 +1485,7 @@ position: absolute;
     border: 1px solid #ccc;
     border-radius: 5px;
     }
-    button {
+     /* button {
     width: 729px;
     height: 58px;
     margin: 20px 0px 20px 47px;
@@ -1497,14 +1497,11 @@ position: absolute;
     cursor: pointer;
     font-family: "Poppins";
     margin-left: 1px;
-    }
+    }  */
     
     button:hover {
     background-color: #ff4785;
     }
-
-
-
     .service1 {
       width: 1140px;
       height: 635px;
@@ -2050,6 +2047,7 @@ position: absolute;
       border: 2px solid #f195b2;
       border-radius: 50px;
       padding: 2px;
+      box-sizing: border-box;
     }
     .slideshow .container-slideshow .btn-slideshow .item-btn button {
       background-color: #f195b2;
@@ -2057,6 +2055,10 @@ position: absolute;
       height: 100%;
       border: 1px solid #f195b2;
       border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
     }
     .slideshow .container-slideshow .btn-slideshow .item-btn button.active {
       background-color: #62c3e7;
@@ -2064,6 +2066,9 @@ position: absolute;
       height: 100%;
       border: 1px solid #62c3e7;
       border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .slideshow-show {
       display: none;
