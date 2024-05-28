@@ -117,18 +117,16 @@ a {
   width: 10.31px;
   height: 16px;
   top: 19px;
-  left: 1315px;
+  left: 1266px;
   position: absolute;
-  background-image: url(/service/img/Symbol.png);
-  background-repeat: no-repeat;
 }
 
 .icon2 {
   width: 16.39px;
   height: 16px;
   top: 19px;
-  left: 1357px;
-  background-image: url(/service/img/Symbol\ \(1\).png);
+  left: 1316px;
+  background-image: url();
   background-repeat: no-repeat;
   position: absolute;
 }
@@ -137,17 +135,15 @@ a {
   width: 14.36px;
   height: 16px;
   top: 19px;
-  left: 1405px;
+  left: 1366px;
   position: absolute;
-  background-image: url(/service/img/Symbol\ \(2\).png);
-  background-repeat: no-repeat;
 }
 
 .icon4 {
   width: 14.36px;
   height: 16px;
   top: 19px;
-  left: 1451px;
+  left: 1416px;
   background-image: url(/service/img/Symbol\ \(3\).png);
   background-repeat: no-repeat;
   position: absolute;
@@ -157,9 +153,7 @@ a {
   width: 18.31px;
   height: 16px;
   top: 19px;
-  left: 1497px;
-  background-image: url(/service/img/Symbol\ \(4\).png);
-  background-repeat: no-repeat;
+  left: 1466px;
   position: absolute;
 }
 
@@ -245,7 +239,7 @@ a:hover {
 }
 
 .img {
-  background-image: url(/service/img/header.jpg);
+  background-image: url(/WEB\ BK2/service/img/header.jpg);
   width: 1920px;
   height: 390.39px;
 
@@ -395,7 +389,8 @@ a:hover {
   top: 20px;
   left: 22.5px;
   position: absolute;
-  background-image: url(/service/img/Symbol\ \(5\).png);
+  background-image: url(/WEB\ BK2/service/img/Symbol\(\4\).png);
+
   background-repeat: no-repeat;
   cursor: pointer;
   transition: 0.6s ease;
@@ -504,7 +499,7 @@ a:hover {
   border: 20px solid #ffffff;
   border-radius: 50%;
   /* Tạo hình tròn */
-  background-image: url("/service/img/service-1.jpg.png");
+  background-image: url("/WEB\ BK2/service/img/service-1.jpg.png");
   /* Đường dẫn đến hình ảnh */
   background-size: cover;
   /* Đảm bảo hình ảnh bao phủ toàn bộ khu vực */
@@ -519,7 +514,7 @@ a:hover {
   border: 20px solid #ffffff;
   border-radius: 50%;
   /* Tạo hình tròn */
-  background-image: url("/service/img/service-2.jpg.png");
+  background-image: url("/WEB\ BK2/service/img/service-2.jpg.png");
   /* Đường dẫn đến hình ảnh */
   background-size: cover;
   /* Đảm bảo hình ảnh bao phủ toàn bộ khu vực */
@@ -534,7 +529,7 @@ a:hover {
   border: 20px solid #ffffff;
   border-radius: 50%;
   /* Tạo hình tròn */
-  background-image: url("/service/img/service-3.jpg.png");
+  background-image: url("/WEB\ BK2/service/img/service-3.jpg.png");
   /* Đường dẫn đến hình ảnh */
   background-size: cover;
   /* Đảm bảo hình ảnh bao phủ toàn bộ khu vực */
@@ -549,7 +544,7 @@ a:hover {
   border: 20px solid #ffffff;
   border-radius: 50%;
   /* Tạo hình tròn */
-  background-image: url("/service/img/service-4.jpg");
+  background-image: url("/WEB\ BK2/service/img/service-4.jpg");
   /* Đường dẫn đến hình ảnh */
   background-size: cover;
   /* Đảm bảo hình ảnh bao phủ toàn bộ khu vực */
@@ -778,8 +773,6 @@ a:hover {
   height: 48px;
   left: 341px;
   position: absolute;
-  background-image: url(/service/img/Symbol\ \(8\).png);
-  background-repeat: no-repeat;
 }
 
 .slideshow-show-border {
@@ -838,7 +831,7 @@ a:hover {
   top: 182.39px;
   left: 325px;
   border-radius: 80px;
-  background-image: url(/service/img/testimonial-1.jpg.png);
+  background-image: url(/WEB\ BK2/service/img/testimonial-1.jpg.png);
   background-repeat: no-repeat;
   position: absolute;
 }
