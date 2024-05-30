@@ -1,0 +1,93 @@
+.my{
+    margin: 15px;
+}
+.myBtn {
+position: absolute;
+width: 28px;
+height: 46px;
+top: 100%;
+left: 1862px;
+padding: 14px 8.69px 16px 9px;
+gap: 0px;
+border-radius: 100px ;
+border: 1px ;
+opacity: 0.99px;
+border: 1px solid #62C3E7;
+background-color: #62C3E7;
+transition: background-color 0.3s ease;
+}
+
+.myBtn:hover {
+  background-color: #62C3E7;
+}
+
+.myBtn-text {
+  width: 10.31px;
+  height: 16px;
+  top: 14px;
+  left: 9px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+  text-align: center;
+  position: absolute;
+}
+
+.myBtn-about{
+  width: 28px;
+  height: 46px;
+  top: 3000px;
+  left: 1890px;
+  bottom: 20px;
+  padding: 14px 8.69px 16px 9px;
+  border-radius: 100px;
+  border: 1px ;
+  border: 1px solid #62C3E7;
+  background-color: #62C3E7;
+  transition: background-color 0.3s ease;  
+  position: absolute;
+  display: block;
+}
+.myBtn-about:hover{
+  background-color: #62C3E7;
+}
+.myBtn-about-text{
+  width: 10.31px;
+  height: 16px;
+  top: 14px;
+  left: 6px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+  text-align: center;
+  position: absolute;
+}
+
+.myBtn-contact{
+  width: 28px;
+  height: 46px;
+  left:1890px;
+  padding: 14px 8.69px 16px 9px; 
+  border-radius: 100px;
+  border: 1px ;
+  opacity: 0px;
+  border: 1px solid #62C3E7;
+  background-color: #62C3E7;
+  transition: background-color 0.3s ease;  
+  position: absolute;
+  display: block;
+}
+.myBtn-contact:hover{
+  background-color: #62C3E7;
+}
+.myBtn-contact-text{
+  width: 10.31px;
+  height: 16px;
+  top: 14px;
+  left: 6px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+  text-align: center;
+  position: absolute;
+}
